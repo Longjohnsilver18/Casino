@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "royalcasino",
+  "version": "${version}",
+  "name": "Royal Casino",
+  "description": "Casino-GUI mit täglichen Coins, Slots, Blackjack und Roulette. Öffnen mit Ö.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.royalcasino.RoyalCasinoClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
